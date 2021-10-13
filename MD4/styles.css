@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.layout {
+    display:grid;
+    grid-template-columns: 872fr 535fr;
+}
+
+.background {
+    background-image: url("background.png");
+    background-color: aliceblue;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    height: auto;
+}
+
+.button {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    width: 80%;
+    height: auto;
+    cursor: pointer;
+    color: white;
+    line-height: 22.4px;
+    padding: 13px 20px 13px 24px;
+    border: transparent;
+    transition: background-color 0.3s;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: rgb(34, 33, 33);
+}
+
+.button--google {
+    background-color: #D7503F;
+}
+
+.button--google:hover {
+    background-color: rgb(211, 60, 33);
+}
+
+.button--apple {
+    background-color: #111111;
+}
+
+
+.or {
+    background: rgba(17, 17, 19, 0.2);
+    line-height: 14.4px;
+    font-size: 12px;
+    width: 80%;
+    text-align: center;
+}
+
+.registration {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
+    gap: 20px;
+}
+
+.input {
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 22.4px;
+    padding: 13px 20px 13px 24px;
+}
+
+.radiobox {
+    display: grid;
+    grid-template-columns: 21px 1fr;
+    padding: none;
+}
+
+.checkbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: none;
+} 
+
+.input--dropdown {
+    width: 100%;
+    padding-left: 0px;
+    border-width: 2px;
+}
+
+.button--joinus {
+    width: 100%;
+    background-color: black;
+    border: transparent;
+    transition: background-color 0.3s;
+}
+
